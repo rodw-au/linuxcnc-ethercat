@@ -9,7 +9,7 @@ sudo apt install dpkg-dev linuxcnc-uspace, ethercat-master and libethercat-dev<b
 dpkg-buildpackage -us -uc<br>
 
 # Install from repositories
-'''
+```
 curl -s https://packagecloud.io/install/repositories/rodw-au/rodw-au/script.deb.sh | sudo bash<br>
 sudo apt-get install linuxcnc-ethercat=0.9.4<br>
-'''  
+```  
