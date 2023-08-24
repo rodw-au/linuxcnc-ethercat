@@ -10,6 +10,6 @@ dpkg-buildpackage -us -uc<br>
 
 # Install from repositories
 ```
-curl -s https://packagecloud.io/install/repositories/rodw-au/rodw-au/script.deb.sh | sudo bash<br>
-sudo apt-get install linuxcnc-ethercat=0.9.4<br>
+curl -s https://packagecloud.io/install/repositories/rodw-au/rodw-au/script.deb.sh | sudo bash
+sudo apt-get install linuxcnc-ethercat=0.9.4
 ```  
