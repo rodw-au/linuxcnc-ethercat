@@ -1,2 +1,15 @@
 # linuxcnc-ethercat
-LinuxCNC EtherCAT HAL driver
+.DEB file for LinuxCNC EtherCAT HAL driver
+
+# build deb file
+git clone https://github.com/rodw-au/linuxcnc-ethercat
+git checkout adapt_debian
+install all dependencies (linuxcnc and libethercat must be installed<br>
+sudo apt install dpkg-dev linuxcnc-uspace, ethercat-master and libethercat-dev<br>
+dpkg-buildpackage -us -uc<br>
+
+# Install from repositories
+'''
+curl -s https://packagecloud.io/install/repositories/rodw-au/rodw-au/script.deb.sh | sudo bash<br>
+sudo apt-get install linuxcnc-ethercat=0.9.4<br>
+''' 
